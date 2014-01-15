@@ -21,6 +21,17 @@
 		1334A7671886512600032396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A7491886512600032396 /* UIKit.framework */; };
 		1334A76F1886512600032396 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1334A76D1886512600032396 /* InfoPlist.strings */; };
 		1334A7711886512600032396 /* CoffeeOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1334A7701886512600032396 /* CoffeeOrderTests.m */; };
+		1334A77B188658A800032396 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A77A188658A800032396 /* FacebookSDK.framework */; };
+		1334A77D188659E000032396 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A77C188659E000032396 /* Parse.framework */; };
+		1334A77F18865AB800032396 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A77E18865AB800032396 /* SystemConfiguration.framework */; };
+		1334A78118865AE200032396 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A78018865AE200032396 /* AudioToolbox.framework */; };
+		1334A78318865AEE00032396 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A78218865AEE00032396 /* CFNetwork.framework */; };
+		1334A78518865AF700032396 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A78418865AF700032396 /* CoreLocation.framework */; };
+		1334A78718865B0300032396 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A78618865B0300032396 /* libz.1.1.3.dylib */; };
+		1334A78918865B0B00032396 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A78818865B0B00032396 /* MobileCoreServices.framework */; };
+		1334A78B18865B1300032396 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A78A18865B1300032396 /* QuartzCore.framework */; };
+		1334A78D18865B1A00032396 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A78C18865B1A00032396 /* Security.framework */; };
+		1334A78F18865B2100032396 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1334A78E18865B2100032396 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,17 @@
 		1334A76C1886512600032396 /* CoffeeOrderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffeeOrderTests-Info.plist"; sourceTree = "<group>"; };
 		1334A76E1886512600032396 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1334A7701886512600032396 /* CoffeeOrderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeOrderTests.m; sourceTree = "<group>"; };
+		1334A77A188658A800032396 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		1334A77C188659E000032396 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1334A77E18865AB800032396 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1334A78018865AE200032396 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1334A78218865AEE00032396 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1334A78418865AF700032396 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1334A78618865B0300032396 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		1334A78818865B0B00032396 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1334A78A18865B1300032396 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1334A78C18865B1A00032396 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1334A78E18865B2100032396 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +82,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1334A78F18865B2100032396 /* StoreKit.framework in Frameworks */,
+				1334A78D18865B1A00032396 /* Security.framework in Frameworks */,
+				1334A78B18865B1300032396 /* QuartzCore.framework in Frameworks */,
+				1334A78918865B0B00032396 /* MobileCoreServices.framework in Frameworks */,
+				1334A78718865B0300032396 /* libz.1.1.3.dylib in Frameworks */,
+				1334A78518865AF700032396 /* CoreLocation.framework in Frameworks */,
+				1334A78318865AEE00032396 /* CFNetwork.framework in Frameworks */,
+				1334A78118865AE200032396 /* AudioToolbox.framework in Frameworks */,
+				1334A77F18865AB800032396 /* SystemConfiguration.framework in Frameworks */,
 				1334A7481886512600032396 /* CoreGraphics.framework in Frameworks */,
+				1334A77B188658A800032396 /* FacebookSDK.framework in Frameworks */,
 				1334A74A1886512600032396 /* UIKit.framework in Frameworks */,
 				1334A7461886512600032396 /* Foundation.framework in Frameworks */,
+				1334A77D188659E000032396 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +134,17 @@
 		1334A7441886512600032396 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1334A78E18865B2100032396 /* StoreKit.framework */,
+				1334A78C18865B1A00032396 /* Security.framework */,
+				1334A78A18865B1300032396 /* QuartzCore.framework */,
+				1334A78818865B0B00032396 /* MobileCoreServices.framework */,
+				1334A78618865B0300032396 /* libz.1.1.3.dylib */,
+				1334A78418865AF700032396 /* CoreLocation.framework */,
+				1334A78218865AEE00032396 /* CFNetwork.framework */,
+				1334A78018865AE200032396 /* AudioToolbox.framework */,
+				1334A77E18865AB800032396 /* SystemConfiguration.framework */,
+				1334A77C188659E000032396 /* Parse.framework */,
+				1334A77A188658A800032396 /* FacebookSDK.framework */,
 				1334A7451886512600032396 /* Foundation.framework */,
 				1334A7471886512600032396 /* CoreGraphics.framework */,
 				1334A7491886512600032396 /* UIKit.framework */,
@@ -378,6 +422,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/T/Documents/CoffeeOrder,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoffeeOrder/CoffeeOrder-Prefix.pch";
 				INFOPLIST_FILE = "CoffeeOrder/CoffeeOrder-Info.plist";
@@ -391,6 +439,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/T/Documents/CoffeeOrder,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoffeeOrder/CoffeeOrder-Prefix.pch";
 				INFOPLIST_FILE = "CoffeeOrder/CoffeeOrder-Info.plist";
